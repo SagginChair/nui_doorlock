@@ -353,6 +353,7 @@ end
 ------------------------------
 
 RegisterNetEvent('nui_doorlock:client:setState', function(sid, doorID, locked, src, isScript)
+    print(closestDoor.id)
     local serverid = GetPlayerServerId(PlayerId())
     if sid == serverid and not isScript then dooranim() end
     if Config.DoorList[doorID] then
