@@ -111,3 +111,43 @@ table.insert(Config.DoorList, {
     audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
     -- autoLock = 1000
 })
+
+-- lowervaultslide
+table.insert(Config.DoorList, {
+	objCoords = vector3(256.8075, 228.9716, 100.6935),
+	objHash = 615294389,
+	fixText = false,
+	slides = true,
+	maxDistance = 6.0,
+	objHeading = 340.00271606445,
+	doorID = 94,
+	locked = true,
+	garage = false,
+	lockpick = false,
+	authorizedJobs = { ['police']=0 },
+	audioRemote = false,
+    --oldMethod = true,
+    --audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
+    --audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
+    --autoLock = 1000
+})
+
+-- lowervaultback
+table.insert(Config.DoorList, {
+	objCoords = vector3(263.7409, 257.7771, 101.8705),
+	objHash = 1008631277,
+	fixText = false,
+	slides = false,
+	maxDistance = 2.0,
+	objHeading = 340.00003051758,
+	doorID = 95,
+	locked = true,
+	garage = false,
+	lockpick = false,
+	authorizedJobs = { ['police']=0 },
+	audioRemote = false,
+    --oldMethod = true,
+    --audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
+    --audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
+    --autoLock = 1000
+})
