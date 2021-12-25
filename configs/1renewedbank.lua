@@ -82,7 +82,7 @@ table.insert(Config.DoorList, {
 
 -- paletofront
 table.insert(Config.DoorList, {
-	locked = true,
+	locked = false,
 	garage = false,
 	maxDistance = 2.0,
 	doorID = 5,
