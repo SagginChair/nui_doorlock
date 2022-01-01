@@ -160,3 +160,42 @@ table.insert(Config.DoorList, {
     --audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
     --autoLock = 1000
 })
+
+-- jewerlyfront
+table.insert(Config.DoorList, {
+	lockpick = false,
+	doorID = 126,
+	authorizedJobs = { ['police']=0 },
+	audioRemote = false,
+	slides = false,
+	maxDistance = 2.5,
+	doors = {
+		{objHash = 1425919976, objHeading = 306.00003051758, objCoords = vector3(-631.9554, -236.3333, 38.20653)},
+		{objHash = 9467943, objHeading = 306.00003051758, objCoords = vector3(-630.4265, -238.4375, 38.20653)}
+    },
+	locked = true,
+    --oldMethod = true,
+    --audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
+    --audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
+    --autoLock = 1000
+})
+
+-- jewerlyin
+table.insert(Config.DoorList, {
+	fixText = false,
+	doorID = 127,
+	locked = true,
+	garage = false,
+	maxDistance = 2.0,
+	objCoords = vector3(-629.1339, -230.1517, 38.20658),
+	objHeading = 36.000022888184,
+	authorizedJobs = { ['police']=0 },
+	audioRemote = false,
+	slides = false,
+	lockpick = false,
+	objHash = 1335309163,
+    --oldMethod = true,
+    --audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
+    --audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
+    --autoLock = 1000
+})
