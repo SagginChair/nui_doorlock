@@ -1,25 +1,3 @@
-
-
--- inside1
-table.insert(Config.DoorList, {
-	garage = false,
-	objCoords = vector3(116.2278, -1294.593, 29.43599),
-	fixText = false,
-	lockpick = false,
-	objHeading = 300.0,
-	slides = false,
-	locked = true,
-	authorizedJobs = { ['stripclub']=0 },
-	objHash = 390840000,
-	audioRemote = false,
-	maxDistance = 2.0,
-	doorID = 101,
-    --oldMethod = true,
-    --audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
-    --audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
-    --autoLock = 1000
-})
-
 -- inside2
 table.insert(Config.DoorList, {
 	garage = false,
@@ -134,6 +112,27 @@ table.insert(Config.DoorList, {
 	audioRemote = false,
 	maxDistance = 2.0,
 	doorID = 107,
+    --oldMethod = true,
+    --audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
+    --audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
+    --autoLock = 1000
+})
+
+-- stripclubaccess
+table.insert(Config.DoorList, {
+	lockpick = false,
+	objHeading = 300.0,
+	slides = false,
+	fixText = false,
+	objHash = 390840000,
+	garage = false,
+	items = { 'stripaccess' },
+	maxDistance = 2.0,
+	doorID = 121,
+	audioRemote = false,
+	objCoords = vector3(116.2278, -1294.593, 29.43599),
+	locked = true,
+	authorizedJobs = { ['stripclub']=0 },
     --oldMethod = true,
     --audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
     --audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
